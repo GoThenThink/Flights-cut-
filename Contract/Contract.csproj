@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Flights.Contract</AssemblyName>
+    <RootNamespace>Flights.Contract</RootNamespace>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Common.Types" Version="1.0.1" />
+    <PackageReference Include="NetTopologySuite.IO.GeoJSON" Version="2.0.3" />
+  </ItemGroup>
+
+</Project>

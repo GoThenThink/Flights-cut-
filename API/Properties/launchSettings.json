@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Flights": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://192.168.0.3:5010"
+    }
+  }
+}

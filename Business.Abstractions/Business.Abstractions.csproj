@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Flights.Business.Abstractions</AssemblyName>
+    <RootNamespace>Flights.Business.Abstractions</RootNamespace>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RandomStartup.Extensions.Common.Types" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Models\Business.Models.csproj" />
+  </ItemGroup>
+
+</Project>
